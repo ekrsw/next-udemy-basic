@@ -1,0 +1,7 @@
+- **ES7 React/Redux/GraphQL/React-Native/JS snippets**: コードスニペット拡張
+- **Auto Import**: 自動インポート補助
+- **Tailwind CSS IntelliSense**: Tailwind用インテリセンス
+- **Prettify TypeScript**: 設定でmax depthを1→3に変更推奨
+- **Highlight Matching Tag**: 対応するタグをハイライト
+- **indent-Rainbow**: インデントをカラフルに表示
+- **アイコン、テーマ、Git関連**: お好みで導入可能（Dracula Theme, Git Graph, Material Icon Theme）
