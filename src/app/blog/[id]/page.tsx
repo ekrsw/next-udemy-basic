@@ -5,7 +5,7 @@ type Params = {
 }
 
 export default async function page({ params } : Params) {
-    // console.log(params)
+    console.log(params)
     const { id } = await params
   return (
     <div>
