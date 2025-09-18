@@ -8,6 +8,7 @@ const articles = [
 // 3秒待機
 async function fetchArticles() {
     await new Promise((resolve) => setTimeout(resolve, 3000))
+    throw new Error("ダミーエラー")
     return articles
 }
 
