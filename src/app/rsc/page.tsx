@@ -1,6 +1,9 @@
+
 export default function ServerComponent() {
-    console.log('ServerComponent')
+    console.log('Server')
     return (
-        <div>サーバーコンポーネント</div>
+        <div>
+            サーバーコンポーネント
+        </div>
     )
 }
