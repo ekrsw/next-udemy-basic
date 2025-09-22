@@ -1,18 +1,15 @@
 'use client'
 
 import { useState } from "react"
-import { useRouter } from "next/navigation"
-import Link from "next/link"
 
 export default function ClientComponent() {
     const [count, setCount] = useState(0)
-    const router = useRouter()
     console.log('ClientComponent')
     return (
         <div>
             クライアント
-            <Link href="/about">About</Link>
-            <button onClick={() => router.push('/about')}>About</button>
+            <button onClick={() => setCount(count + 1)}>+1</button>
+            <p>count: {count}</p>
         </div>
     )
 }

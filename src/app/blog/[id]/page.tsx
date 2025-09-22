@@ -1,6 +1,6 @@
 type Params = {
     params: Promise<{
-        id: String
+        id: string
     }>
 }
 
